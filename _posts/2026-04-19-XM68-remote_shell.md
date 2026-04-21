@@ -1,5 +1,6 @@
 ---
 title: "Firmware modification to root shell - XM68 Security Camera"
+description: "A full chain hardware teardown and firmware implant on a cheap Chinese IP camera — from SPI flash extraction and CramFS unpacking, to a custom ARM bind shell and persistent root access on every boot."
 date: 2026-04-19
 categories: [Security Research, Hardware]
 tags: [firmware, iot, embedded, reverse-engineering, arm]
