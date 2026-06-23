@@ -1,7 +1,7 @@
 ---
 title: "SD Card Code Execution Backdoor — V380 Pro IP Camera"
 description: "A $10 op-shop IP camera with a built-in mechanism that executes arbitrary shell scripts from an SD card at boot — no authentication, no interaction, running as root. Three files on a blank SD card is enough to steal the WiFi password and leave a persistent root backdoor on the network."
-date: 2026-06-24
+date: 2026-06-13
 categories: [Security Research, Hardware]
 tags: [firmware, iot, embedded, reverse-engineering, arm, backdoor]
 mermaid: true
