@@ -6,13 +6,15 @@ categories: [Security Research, Hardware]
 tags: [firmware, iot, embedded, reverse-engineering, arm, backdoor]
 mermaid: true
 author: "Cameron Smith"
+image:
+  path: /assets/img/posts/v380-pro-back-door/V380-PRO.avif
+  alt: V380 Pro IP camera
 ---
 
 Whilst op-shopping in Melbourne, I found a deal I couldn't refuse — a $10 V380 Pro IP Camera. Naturally, I decided to buy it and pull it apart. What I found was a built-in update mechanism that executes arbitrary shell scripts from an SD card at boot with no authentication, running as root. All that is required is the placement of three specific files on the SD card and the camera responds with "your wish is my command". Exfiltrating the WiFi password and leaving a persistent root backdoor on the network is trivial.
 
 Here is how it was done...
 
-![assets/img/V380-PRO.avif](/assets/img/posts/v380-pro-back-door/V380-PRO.avif)
 
 ## Table of Contents
 

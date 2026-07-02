@@ -17,7 +17,6 @@ This post isn't about getting root access on the Roborock, as that's widely docu
 
 The high-level findings include WiFi password, Xiaomi cloud token, root SSH password, and a LiDAR map of a stranger's home. All unencrypted.
 
-![Roborock S5 robot vacuum](/assets/img/posts/Roborock_S5/RoborockS5.png)
 
 > Note - All credentials shared in this report have been randomised and do not reflect real secrets.
 
@@ -134,7 +133,7 @@ The board was cleaned by adding fresh leaded solder and then following up with s
 
 <img src="/assets/img/posts/Roborock_S5/chips/003_cleane_pads_on_board.jpg" width="100%" alt="Cleaned BGA pads on the PCB ready for reballing">
 
-<iframe width="100%" style="aspect-ratio:16/9;" src="https://www.youtube.com/embed/-O7tkUukpRg" title="BGA eMMC pad cleaning" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" style="aspect-ratio:16/9;" src="https://www.youtube-nocookie.com/embed/-O7tkUukpRg" title="BGA eMMC pad cleaning" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
@@ -144,7 +143,7 @@ Next, the chip was reballed using a magnetic stencil and low melt point solder.
 
 > **Tip:** Thoroughly scrape the solder into the stencil, then clean extensively with 2–3 cotton tips — without any solvent cleaner. This helps to ensure even coverage of solder paste, greatly increasing the odds of a clean BGA reball.
 
-<iframe width="100%" style="aspect-ratio:16/9;" src="https://www.youtube.com/embed/z7bWJEaZ1xs" title="BGA eMMC reballing" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" style="aspect-ratio:16/9;" src="https://www.youtube-nocookie.com/embed/z7bWJEaZ1xs" title="BGA eMMC reballing" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
@@ -152,7 +151,7 @@ Next, the chip was reballed using a magnetic stencil and low melt point solder.
 
 With the eMMC reballed with sufficient solder, it was attached to an eMMC-to-SD card adapter board.
 
-<iframe width="100%" style="aspect-ratio:16/9;" src="https://www.youtube.com/embed/yc5kQX8lp3Q" title="Soldering eMMC to SD adapter" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" style="aspect-ratio:16/9;" src="https://www.youtube-nocookie.com/embed/yc5kQX8lp3Q" title="Soldering eMMC to SD adapter" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
@@ -160,7 +159,7 @@ With the eMMC reballed with sufficient solder, it was attached to an eMMC-to-SD 
 
 With the flash soldered to the adapter, it was thoroughly cleaned with isopropyl and was now ready to be connected to a computer for data extraction:
 
-<iframe width="100%" style="aspect-ratio:16/9;" src="https://www.youtube.com/embed/bQXa8mNKd0I" title="Final cleaned eMMC chip" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" style="aspect-ratio:16/9;" src="https://www.youtube-nocookie.com/embed/bQXa8mNKd0I" title="Final cleaned eMMC chip" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 

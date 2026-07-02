@@ -6,11 +6,13 @@ categories: [Security Research, Hardware]
 tags: [firmware, iot, embedded, reverse-engineering, arm]
 mermaid: true
 author: "Cameron Smith"
+image:
+  path: /assets/img/posts/XM68-remote-shell/blog/xm68-camera.jpg
+  alt: XM68 dual-lens PTZ security camera
 ---
 
 Over Easter I had a crack at getting a remote shell on a Chinese security camera I purchased off AliExpress. It started as curiosity, wanting to understand what was actually running inside one of these cheap IoT devices. It turned into a weekend-long rabbit hole that ended with a persistent root shell implanted directly into the devices firmware.
 
-![XM68 dual-lens PTZ security camera](/assets/img/posts/XM68-remote-shell/blog/xm68-camera.jpg)
 
 The camera I targeted was a XM68 dual-lens PTZ unit, built on the XM Silicon platform — the same SoC family that underpins a significant proportion of the world's inexpensive IP cameras.
 
